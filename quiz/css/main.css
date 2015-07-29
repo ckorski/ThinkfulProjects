@@ -1,0 +1,11 @@
+body {
+	background-image:url('../img/js.png');
+	background-size: 40em;
+	background-repeat: no-repeat;
+	background-position: center;
+	}
+#question_wrapper { 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center; 
+}

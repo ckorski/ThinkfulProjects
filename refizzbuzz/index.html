@@ -1,0 +1,46 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript">
+ function fzBz(){
+
+var num = prompt("Enter your number:");
+num = parseInt(num);
+if (isNaN(num))
+   {
+   alert("Wrong input please try again");
+   }
+else
+   {
+for (var i = 1; i <= num; i++) {
+if (i % 15 == 0) {
+	 $( ".list" ).append('<li class="fb">' + "fizzbuzz" + '</li>');
+	
+}
+else if (i % 3 == 0) {
+	 $( ".list" ).append('<li class="fb">' + "fizz" + '</li>');
+	
+}
+else if (i % 5 == 0) {
+	 $( ".list" ).append('<li class="fb">' + "buzz" + '</li>');
+
+}
+else{
+$('.list').append('<li class="fb">' + i + '</li>');
+
+}
+}
+   }
+ }
+</script>
+
+</head>
+<body>
+		<ul class="list">
+		 <h1> Fizzbuzz Challenge </h1>
+		</ul>
+	<form>
+		<input type="button" onclick="fzBz()" value="Click here to start the challenge" />
+	</form>
+</body>
+</html>

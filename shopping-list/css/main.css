@@ -1,0 +1,24 @@
+body {
+
+}
+#main{
+	background-image: url('../img/carousel.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 40em;
+}
+.list {
+	position: relative;
+	left: 45%;
+    top: 150px;
+}
+.complete {
+	position: relative;
+/*	float: left; */
+	left: 45%; 
+    top: 150px;
+}
+
+.strike {
+	text-decoration:line-through;
+}

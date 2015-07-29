@@ -1,0 +1,28 @@
+
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/tube.js"></script>
+<body>
+			<nav> 
+				<ul class="clearfix">
+					<li><h1 class="what">Thinkful Tube: Challenge</h1></li>
+				</ul>
+			</nav>
+			
+			<!-- logo text -->
+			<h1>Search Youtube</h1>
+
+
+
+			<form id ="search-term" method="POST">
+				<input type="text" name="userGuess" id="query" class="text" maxlength="3" autocomplete="off" placeholder="Typer here what you're searching for" required/>
+      			<input type="submit" id="submit" class="button" name="submit" value="Search"/>
+			</form>
+<div id="results">
+			<ul></ul>
+			<p class="error"></p>
+		</div>
+
+</body>
+</html>
